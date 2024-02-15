@@ -1,9 +1,9 @@
-import './App.css';
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Products from "./components/Products/products.js";
 import Header from "./components/Header/header";
-import HeroPage from './components/HeroPage/heropage.js';
-import About from './components/About/about.js';
+import HeroPage from "./components/HeroPage/heropage.js";
+import About from "./components/About/about.js";
 
 function App() {
   return (
