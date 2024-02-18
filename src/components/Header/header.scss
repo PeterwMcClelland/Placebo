@@ -1,16 +1,31 @@
 .hero-header {
-  background-color: aqua;
+  background-color: rgb(7, 92, 92);
   height: 100px;
   width: auto;
+}
+
+.active-link {
+  text-decoration: underline black;
 }
 
 .products-txt,
 .about-txt {
   text-decoration: none;
   padding: 20px;
+  text-align: center;
+  display: end;
+  color: black;
+  font-family: monospace;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .placebo-h1 {
   text-decoration: none;
   padding: 20px;
+  color: black;
+  display: flex;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: x-large;
 }
